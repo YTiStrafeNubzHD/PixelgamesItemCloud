@@ -1,11 +1,11 @@
 Changelog PixelgamesItemCloud:
 
 v0.1-release: Plugin released als Kopie, Anpassungen  (string label und :bool), sehr altes Plugin
-v0.1.1: Wegen Fehlermeldung in SaveTask Änderung vorgenommen
+v0.1.1: Wegen Fehlermeldung in SaveTask Ã„nderung vorgenommen
 v0.1.2: $getOwner in SaveTask entfernt wegen der Fehlermeldung
 v0.1.3: Tests zur Fehlerbehebung, save() definiert
-v1.0#: Main und plugin.yml übersetzt und verbessert, Messages bei onLoad, onEnable und onDisable hinzugefügt
-v2.0#: Info und Help hinzugefügt, Optimierungen
-v2.1#: Benutzungshinweis geändert, mit oranger Farbe getrennt, Versionsnummer in Info
+v1.0#: Main und plugin.yml Ã¼bersetzt und verbessert, Messages bei onLoad, onEnable und onDisable hinzugefÃ¼gt
+v2.0#: Info und Help hinzugefÃ¼gt, Optimierungen
+v2.1#: Benutzungshinweis geÃ¤ndert, mit oranger Farbe getrennt
 v2.2#: Allgemeines API-Update auf 3.0.0-ALPHA11
 v
