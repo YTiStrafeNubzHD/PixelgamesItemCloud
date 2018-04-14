@@ -1,0 +1,42 @@
+name: PixelgamesItemCloud
+version: 2.2#
+author: onebone, iStrafeNubzHDyt
+api: 3.0.0-ALPHA11
+main: Authors\PixelgamesItemCloud\MainClass
+website: http://onebone.me/plugins/?plugin=itemcloud
+
+commands:
+ itemcloud:
+  description: Hauptbefehl für PixelgamesItemCloud, verwaltet die ItemCloud-Accounts für Blöcke
+  usage: /itemcloud <register|upload|download|list|count> [ItemID[:Meta]/ItemName]
+  permission: itemcloud.command.register;itemcloud.command.upload;itemcloud.command.download;itemcloud.command.list;itemcloud.command.count
+
+permissions:
+ itemcloud.*:
+  description: Gibt dem Spieler das Recht, alle ItemCloud-Funktionen zu benutzen
+
+  children:
+   itemcloud.command.*:
+    default: true
+    description: Gibt dem Spieler das Recht, alle Befehle von PixelgamesItemCloud zu verwenden
+
+    children:
+     itemcloud.command.register:
+      default: true
+      description: Erlaubt dem Spieler, einen ItemCloud-Account zu registrieren
+
+     itemcloud.command.upload:
+      default: true
+      description: Erlaubt dem Spieler, Items auf seinen ItemCloud-Account hochzuladen
+
+     itemcloud.command.download:
+      default: true
+      description: Erlaubt dem Spieler, Items von seinem ItemCloud-Account ins Inventar herunterzuladen
+
+     itemcloud.command.list:
+      default: true
+      description: Erlaubt dem Spieler, alle Items auf seinem ItemCloud-Account aufzulisten
+
+     itemcloud.command.count:
+      default: true
+      description: Erlaubt dem Spieler, die Anzahl von bestimmten Items auf seinem ItemCloud-Account abzurufen
