@@ -273,8 +273,8 @@ class MainClass extends PluginBase implements Listener{
                                                 $sender->sendMessage("§ePlugin von onebone, iStrafeNubzHDyt");
                                                 $sender->sendMessage("§bName: PixelgamesItemCloud");
                                                 $sender->sendMessage("§bOriginal: ItemCloud");
-                                                $sender->sendMessage("§bVersion: 2.2#");
-                                                $sender->sendMessage("§bFür PocketMine-API: 3.0.0-ALPHA11");
+                                                $sender->sendMessage("§bVersion: 2.3#");
+                                                $sender->sendMessage("§bFür PocketMine-API: 3.0.0-ALPHA12");
                                                 $sender->sendMessage("§6Permissions: itemcloud.*, itemcloud.command.*, itemcloud.command.register, itemcloud.command.upload, itemcloud.command.download, itemcloud.command.list, itemcloud.command.count");
                                                 $sender->sendMessage("§eSpeziell für PIXELGAMES entwickelt");
                                                 $sender->sendMessage("§e---------------------------------");

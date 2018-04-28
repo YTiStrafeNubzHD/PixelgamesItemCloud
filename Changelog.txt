@@ -8,4 +8,5 @@ v1.0#: Main und plugin.yml übersetzt und verbessert, Messages bei onLoad, onEna
 v2.0#: Info und Help hinzugefügt, Optimierungen
 v2.1#: Benutzungshinweis geändert, mit oranger Farbe getrennt
 v2.2#: Allgemeines API-Update auf 3.0.0-ALPHA11
+v2.3#: Allgemeines API-Update auf 3.0.0-ALPHA12
 v
