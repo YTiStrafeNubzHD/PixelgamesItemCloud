@@ -2,12 +2,12 @@
 
 namespace Authors\PixelgamesItemCloud;
 
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 
-class SaveTask extends PluginTask{
+class SaveTask extends Task{
 
   public function __construct(MainClass $plugin){
-    parent::__construct($plugin);
+    $this->plugin = $plugin;
   }
 
 
@@ -16,7 +16,7 @@ class SaveTask extends PluginTask{
   }
 
     public function save() {
-        $this->getOwner()->save();
+        $this->plugin->save();
     }
 
 }
