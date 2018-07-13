@@ -1,7 +1,7 @@
 name: PixelgamesItemCloud
-version: 2.4#
+version: 2.5#
 author: onebone, iStrafeNubzHDyt
-api: 3.0.0-ALPHA12
+api: [3.0.0-ALPHA12, 3.0.0, 4.0.0]
 main: Authors\PixelgamesItemCloud\MainClass
 website: http://onebone.me/plugins/?plugin=itemcloud
 
